@@ -42,26 +42,6 @@ h1 {
     line-height: 70px;
 }
 
-h4 {
-    font-family: 'Lato', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    position: relative;
-    color: #425BB5;
-    margin-left: 40px;
-    font-weight: 700;
-}
-
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #425BB5;
-    top: 9px;
-}
 
 
 /* General
@@ -325,7 +305,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #f3f3f3;
 }
 
 .experience-row {
@@ -442,6 +422,39 @@ a.active {
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
+}
+
+
+/* formacao section
+==================================================*/
+
+#formacao {
+    padding: 100px 0;
+}
+
+.formacao-row {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.formacao-row h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #425BB5;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.formacao-row p {
+    color: #888;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.formacao-row .date {
+    color: #000;
+    font-size: 17px;
 }
 
 
