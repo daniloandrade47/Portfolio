@@ -2866,7 +2866,8 @@ h6 {
     left: 0px;
     bottom: 30px;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+    background-color:#ffffff73; }
     .projects_item .projects_text h4 {
       font-size: 21px;
       font-family: "Heebo", sans-serif;
